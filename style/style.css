@@ -7,7 +7,6 @@
 
 body {
     background: radial-gradient(at 45% 45%, #05b105, #015001);
-    padding-bottom: 30px;
 
 }
 
@@ -88,8 +87,31 @@ body {
     display: block;
 }
 
-.botao:hover {
-    width: 320px;
+.bonus {
+    background-color: white;
+}
+
+.bonus img {
+    display: block;
+    margin: auto;
+    width: 200px;
+}
+
+.container-bonus {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+}
+
+.container-bonus-2 {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+
+.all-bonus {
+    width: 150px;
 }
 
 
