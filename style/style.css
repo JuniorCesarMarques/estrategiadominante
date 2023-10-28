@@ -45,6 +45,21 @@ img {
     display: none;
 }
 
+button {
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: black;
+    background-color: #00ff00;
+    display: block;
+    margin: auto;
+}
+
+button:hover {
+    background-color: #02cf02;
+}
 
 
 /*tablet*/
