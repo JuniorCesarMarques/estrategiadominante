@@ -41,6 +41,10 @@ body {
     justify-content: center;
 }
 
+img {
+    display: none;
+}
+
 
 
 /*tablet*/
