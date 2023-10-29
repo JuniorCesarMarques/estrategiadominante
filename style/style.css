@@ -88,7 +88,7 @@ body {
 }
 
 .bonus {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
 
 .bonus img {
@@ -100,7 +100,7 @@ body {
 .container-bonus {
     display: flex;
     justify-content: space-evenly;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
 
 .container-bonus-2 {
@@ -112,6 +112,11 @@ body {
 
 .all-bonus {
     width: 150px;
+}
+
+.vsl {
+    width: 280px;
+    height: 157px;
 }
 
 
@@ -158,6 +163,13 @@ body {
 
 /*desktop*/
 @media (min-width: 1024px) {
+    .bonus img {
+        width: 300px;
+    }
+    .all-bonus {
+        width: 250px;
+    }
+
     .imagens {
         display: block;
         width: 250px;
@@ -177,3 +189,5 @@ body {
         margin: 0 250px;
     }
 }
+
+
