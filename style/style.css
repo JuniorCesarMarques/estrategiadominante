@@ -195,3 +195,85 @@ body {
 }
 
 
+
+
+.comment-section {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f6f7f8;
+}
+
+.comments {
+    margin-top: 10px;
+}
+
+.comment {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.comment-avatar {
+    width: 40px;
+    height: 40px;
+    background-color: #ddd; /* Cor do avatar */
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.img-avatar {
+    width: 45px;
+    border-radius: 50%;
+}
+
+.comment-content {
+    flex-grow: 1;
+}
+
+.comment-text {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.comment-form {
+    margin-top: 10px;
+}
+
+#comment-input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+#comment-button {
+    background-color: #1877f2; /* Cor do botão de comentário do Facebook */
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.like-button {
+    background-color: #1877f2; /* Cor do botão de curtir do Facebook */
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.like-button.liked {
+    background-color: #3b5998; /* Cor do botão "Curtido" do Facebook */
+}
+
+.likes-count {
+    margin-left: 10px;
+}
+
+
