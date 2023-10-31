@@ -108,5 +108,48 @@
     <script src="scripts/coments.js"></script>
 
     <script type="text/javascript" id="scr_65401cc3130806000a90504a">var s=document.createElement("script");s.src="https://scripts.converteai.net/ac44cc33-3f28-47ce-9efc-7450b907395a/players/65401cc3130806000a90504a/player.js",s.async=!0,document.head.appendChild(s);</script>
+
+    <style>
+        .popup {
+            font-family: Arial, Helvetica, sans-serif;
+          font-weight: bold;
+          display: none;
+          position: fixed;
+          background: #fff;
+          border: 1px solid #ccc;
+          padding: 10px;
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+          z-index: 999;
+          max-width: 300px;
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%, -50%);
+        }
+      </style>
+    </head>
+    <body>
+      <div id="popup" class="popup"></div>
+      <script>
+        const names = ["Ailton", "Luiz Carlos", "João Augusto", "João Dias", "Maria", "Ana", "Priscila", "Gustavo", "Roberto", "Adriano", "Kauan", "Brayan", "Higor", "Fernanda", "Thais", "Cesar Augusto", "Samuel"];
+    
+        function showRandomPopup() {
+          const randomName = names[Math.floor(Math.random() * names.length)];
+          const message = `${randomName} comprou um produto!`;
+          const popup = document.getElementById("popup");
+          popup.textContent = message;
+          popup.style.display = "block";
+    
+          setTimeout(() => {
+            popup.style.display = "none";
+            setTimeout(showRandomPopup, getRandomTime());
+          }, 3000); // Fecha o pop-up após 3 segundos
+        }
+    
+        function getRandomTime() {
+          return Math.floor(Math.random() * 10000) + 2000; // Intervalo aleatório entre 2 e 6 segundos
+        }
+    
+        showRandomPopup();
+      </script>
 </body>
 </html>
