@@ -2,7 +2,7 @@ const chat = document.getElementById("chat");
 const commentInput = document.getElementById("comment");
 const button = document.getElementById("button");
 
-const nomes = ["João", "Maria", "Pedro", "Ana", "Carlos", "Lucas", "Cesar Soares", "Junior", "Cesar Soares", "Cleiton Silva", "Junior"];
+const nomes = ["João", "Maria", "Pedro", "Ana", "Carlos", "Lucas", "Cesar Soares", "Junior", "Cesar Soares", "Cleiton Silva", "Junior","Bruno", "Gustavo", "Aline", "Katia", "Silvana", "Ciro", "Alexandre", "Andrade", "Mariana", "Fabiano"];
 let nomeIndex = 0; // Índice do próximo nome a ser escolhido
 
 function getNextName() {
@@ -42,6 +42,10 @@ button.addEventListener("click", () => {
   }
 });
 
+const data = new Date();
+const hora = data.getHours().toString().padStart(2, '0');
+const minutos = data.getMinutes().toString().padStart(2, '0');
+
 function simulateRandomComments() {
   const randomComments = [
     "top as estratégias!",
@@ -52,7 +56,13 @@ function simulateRandomComments() {
     "bora falir as plataformas!",
     "top as estratégias, nada a reclamar",
     "comprei e não me arrependo!",
-    "cumpre o que promete"
+    "cumpre o que promete",
+    `em plena ${hora}:${minutos} e eu aqui kkk`,
+    "alguem me ajuda",
+    "qual é sua duvida?",
+    "deu certo pra vocês",
+    "comprando pra ver",
+    "não vai se arrepender, é só seguir certinho",
   ];
 
   let index = 0;
@@ -103,4 +113,3 @@ function updateOnlineCount() {
   // Em seguida, crie um intervalo para atualizar o número periodicamente (por exemplo, a cada 5 segundos)
   setInterval(updateOnlineCount, 5000);
   
-
