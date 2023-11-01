@@ -60,9 +60,10 @@ function simulateRandomComments() {
     `em plena ${hora}:${minutos} e eu aqui kkk`,
     "alguem me ajuda",
     "qual é sua duvida?",
-    "deu certo pra vocês",
+    "deu certo pra vocês?",
     "comprando pra ver",
     "não vai se arrepender, é só seguir certinho",
+    "mais de 2 mil pessoa online, se é loko!",
   ];
 
   let index = 0;
