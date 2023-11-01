@@ -2,7 +2,7 @@ const chat = document.getElementById("chat");
 const commentInput = document.getElementById("comment");
 const button = document.getElementById("button");
 
-const nomes = ["João", "Maria", "Pedro", "Ana", "Carlos", "Lucas", "Cesar Soares", "Junior", "Cesar Soares", "Cleiton Silva"];
+const nomes = ["João", "Maria", "Pedro", "Ana", "Carlos", "Lucas", "Cesar Soares", "Junior", "Cesar Soares", "Cleiton Silva", "Junior"];
 let nomeIndex = 0; // Índice do próximo nome a ser escolhido
 
 function getNextName() {
@@ -53,7 +53,8 @@ function simulateRandomComments() {
     "sera que não é fake esse chat?",
     "kkkk claro que não mano",
     "Sei..",
-    "no revelador de traição não fez isso né..."
+    "no revelador de traição não fez isso né...",
+    "\u{1F615}"
   ];
 
   let index = 0;
