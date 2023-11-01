@@ -64,7 +64,7 @@ function simulateRandomComments() {
     } else {
       clearInterval(commentInterval);
     }
-  }, 2000); // Altere o intervalo conforme necessário
+  }, 4000); // Altere o intervalo conforme necessário
 }
 
 // Iniciar a simulação de comentários aleatórios
