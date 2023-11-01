@@ -183,6 +183,108 @@ body {
     }
 }
 
+.header-chat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border: 1px solid white;
+    background-color: black;
+    height: 100px;
+    width: 100%;
+}
+
+.item-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 210px;
+}
+
+
+#live-indicator {
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    top: 15px;
+    right: 30px;
+    animation: pulse 1s ease-in-out infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(0.9);
+    }
+    50% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0.9);
+    }
+  }
+  
+
+#chat {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    overflow-y: auto;
+    height: 300px;
+  }
+
+  #container-texto {
+    margin: 0 0 50px;
+    padding: 15px;
+    background-color: black;
+    border: 1px solid #333;
+    border-radius: 5px;
+  }
+
+  #comment {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid #333;
+    background-color: rgba(0, 0, 0, 0.7); /* Faz o campo de entrada transparente */
+    color: #fff;
+    outline: none;
+  }
+
+  #button {
+    display: block;
+    background-color: #FF0000;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+
+  p {
+    margin: 0;
+    padding: 5px 0;
+    font-size: 14px;
+  }
+
+  .container-avatar {
+    padding: 20px;
+    border: 1px solid white;
+    display: flex;
+  }
+
+  .avatar-img {
+    border-radius: 50px;
+    height: 25px;
+  }
+
+  .avatar-nome {
+    font-style: italic;
+    font-weight: bold;
+    margin: 0 10px;
+  }
+
 
 
 
