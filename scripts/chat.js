@@ -91,8 +91,8 @@ setInterval(toggleLiveIndicator, 1000); // Altere a frequência piscante conform
 
 function updateOnlineCount() {
     const onlineCountElement = document.getElementById("online-count");
-    const minCount = 2000;
-    const maxCount = 2020;
+    const minCount = 2570;
+    const maxCount = 2600;
     const newCount = Math.floor(Math.random() * (maxCount - minCount + 1) + minCount);
     onlineCountElement.textContent = newCount;
   }
