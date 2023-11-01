@@ -50,11 +50,9 @@ function simulateRandomComments() {
     "se é loko, olha o tanto de gente online!",
     "comprei, agora só aplicar as estratégias!",
     "bora falir as plataformas!",
-    "sera que não é fake esse chat?",
-    "kkkk claro que não mano",
-    "Sei..",
-    "no revelador de traição não fez isso né...",
-    "\u{1F615}"
+    "top as estratégias, nada a reclamar",
+    "comprei e não me arrependo!",
+    "cumpre o que promete"
   ];
 
   let index = 0;
