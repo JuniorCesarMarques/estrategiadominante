@@ -2,7 +2,7 @@ const chat = document.getElementById("chat");
 const commentInput = document.getElementById("comment");
 const button = document.getElementById("button");
 
-const nomes = ["João", "Maria", "Pedro", "Ana", "Carlos", "Lucas", "Cesar Soares", "Junior", "Cesar Soares", "Cleiton Silva", "Junior","Bruno", "Gustavo", "Aline", "Katia", "Silvana", "Ciro", "Ciro", "Andrade", "Mariana", "Paulo", "Ciro", "Ciro", "Ciro"];
+const nomes = ["João", "Maria", "Pedro", "Ana", "Carlos", "Lucas", "Cesar Soares", "Junior", "Cesar Soares", "Cleiton Silva", "Junior","Bruno", "Gustavo", "Aline", "Katia", "Silvana", "Ciro", "Ciro", "Andrade", "Mariana", "Paulo", "Ciro", "Ciro", "Ciro","Adelino", "Ciro", "Adelino", "Ciro", "Ciro", "Ciro"];
 let nomeIndex = 0; // Índice do próximo nome a ser escolhido
 
 function getNextName() {
@@ -71,7 +71,13 @@ function simulateRandomComments() {
     "gente vocês todos compraram?",
     "sim mariana, faz tempo, encerra daqui a pouco",
     "quem comprar comprou",
-    `encerra antes das ${Number(hora) + 1}`
+    `encerra antes das ${Number(hora) + 1}`,
+    "Ciro, vc é da equipe?",
+    "não kkk, acabei de comprar tbm",//Ciro
+    "tem limite de vagas?", //Adelino
+    "são mil vagas se não me engano", //Ciro
+    "o problema é que tem mais de 2 mil pessoas aqui kkkk", //ciro
+    `e encerra antes das ${Number(hora) + 1} né`, //ciro
 
   ];
 
@@ -85,7 +91,7 @@ function simulateRandomComments() {
     } else {
       clearInterval(commentInterval);
     }
-  }, 4000); // Altere o intervalo conforme necessário
+  }, 7000); // Altere o intervalo conforme necessário
 }
 
 // Iniciar a simulação de comentários aleatórios
