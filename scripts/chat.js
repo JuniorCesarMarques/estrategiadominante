@@ -2,7 +2,7 @@ const chat = document.getElementById("chat");
 const commentInput = document.getElementById("comment");
 const button = document.getElementById("button");
 
-const nomes = ["João", "Maria", "Pedro", "Ana", "Carlos", "Lucas", "Cesar Soares", "Junior", "Cesar Soares", "Cleiton Silva", "Junior","Bruno", "Gustavo", "Aline", "Katia", "Silvana", "Ciro", "Alexandre", "Andrade", "Mariana", "Fabiano"];
+const nomes = ["João", "Maria", "Pedro", "Ana", "Carlos", "Lucas", "Cesar Soares", "Junior", "Cesar Soares", "Cleiton Silva", "Junior","Bruno", "Gustavo", "Aline", "Katia", "Silvana", "Ciro", "Ciro", "Andrade", "Mariana", "Paulo", "Ciro", "Ciro", "Ciro"];
 let nomeIndex = 0; // Índice do próximo nome a ser escolhido
 
 function getNextName() {
@@ -64,6 +64,15 @@ function simulateRandomComments() {
     "comprando pra ver",
     "não vai se arrepender, é só seguir certinho",
     "mais de 2 mil pessoa online, se é loko!",
+    "João, ainda esta aqui mano",
+    "????",
+    "Acho que ele saiu",
+    "pq ciro?",
+    "gente vocês todos compraram?",
+    "sim mariana, faz tempo, encerra daqui a pouco",
+    "quem comprar comprou",
+    `encerra antes das ${Number(hora) + 1}`
+
   ];
 
   let index = 0;
