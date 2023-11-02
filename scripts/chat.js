@@ -78,7 +78,6 @@ function simulateRandomComments() {
     "são mil vagas se não me engano", //Ciro
     "o problema é que tem mais de 2 mil pessoas aqui kkkk", //ciro
     `e encerra antes das ${Number(hora) + 1} né`, //ciro
-
   ];
 
   let index = 0;
